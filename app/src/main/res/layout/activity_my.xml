@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="202109181459000312062"/>
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广西壮族自治区,贺州市,八步区,八步街道,市区\n人民医院"
+        android:layout_below="@id/et_1"/>
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贺州市内"
+        android:layout_below="@id/et_2"/>
+    <EditText
+        android:id="@+id/et_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="低风险地区"
+        android:layout_below="@id/et_3"/>
+    <EditText
+        android:id="@+id/et_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:layout_below="@id/et_4"/>
+    <EditText
+        android:id="@+id/et_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2021-09-19 14:00"
+        android:layout_below="@id/et_5"/>
+    <EditText
+        android:id="@+id/et_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2021-09-20 15:00"
+        android:layout_below="@id/et_6"/>
+    <EditText
+        android:id="@+id/et_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 (1天1.00小时)"
+        android:layout_below="@id/et_7"/>
+    <EditText
+        android:id="@+id/et_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去医院"
+        android:layout_below="@id/et_8"/>
+
+    <EditText
+        android:id="@+id/et_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.18 14:59"
+        android:layout_below="@id/et_9"/>
+    <EditText
+        android:id="@+id/et_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.19 13:12"
+        android:layout_below="@id/et_11"/>
+    <EditText
+        android:id="@+id/et_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.19 13.13"
+        android:layout_below="@id/et_12"/>
+    <EditText
+        android:id="@+id/et_14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.19 13.14"
+        android:layout_below="@id/et_13"/>
+    <EditText
+        android:id="@+id/et_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.19 13.16"
+        android:layout_below="@id/et_14"/>
+    <EditText
+        android:id="@+id/et_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09.19 13.17"
+        android:layout_below="@id/et_15"/>
+
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="进  入"
+        android:onClick="button"
+        android:layout_below="@id/et_16"/>
+</RelativeLayout>
